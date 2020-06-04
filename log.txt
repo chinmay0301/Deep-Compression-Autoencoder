@@ -1,0 +1,13 @@
+accuracy_after_retraining 0.000403613618016243
+initial_accuracy 0.00027527752220630645
+accuracy_after_pruning 0.0010125953376293182
+accuracy_after_retraining 0.000403613618016243
+initial_accuracy 0.00027527752220630645
+accuracy_after_pruning 0.0010125953376293182
+accuracy_after_retraining 0.000403613618016243
+initial_accuracy 0.000246450437605381
+accuracy_after_pruning 0.0010091570556163788
+accuracy_after_retraining 0.0002863775879144669
+initial_accuracy 0.00022830803394317627
+accuracy_after_pruning 0.001007128208875656
+accuracy_after_retraining 0.00024943109899759294

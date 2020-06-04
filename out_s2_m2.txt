@@ -1,0 +1,24 @@
+accuracy before weight sharing
+invoking test_vae
+10000
+Test set: Average loss: 2.8638
+accuacy after weight sharing
+invoking test_vae
+10000
+Test set: Average loss: 3.5725
+Layer           |   original compressed improvement percent
+----------------------------------------------------------------------
+encoder_l1.weight |      71828      16152       4.45x  22.49%
+encoder_l1.bias |       3076       1360       2.26x  44.21%
+encoder_l2.weight |      15652       3692       4.24x  23.59%
+encoder_l2.bias |       1540        672       2.29x  43.64%
+encoder_l3.weight |       3612       1303       2.77x  36.07%
+encoder_l3.bias |        772        336       2.30x  43.52%
+decoder_l1.weight |       3884       1338       2.90x  34.45%
+decoder_l1.bias |       1540        672       2.29x  43.64%
+decoder_l2.weight |      14716       3813       3.86x  25.91%
+decoder_l2.bias |       3076       1360       2.26x  44.21%
+decoder_l3.weight |      97340      20842       4.67x  21.41%
+decoder_l3.bias |       9412       3589       2.62x  38.13%
+----------------------------------------------------------------------
+total           |     226448      55129       4.11x  24.35%
